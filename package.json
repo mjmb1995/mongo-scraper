@@ -1,0 +1,28 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "description": "App that scrapes articles from the NY Times",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjmb1995/mongo-scraper.git"
+  },
+  "author": "Mark Bihag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjmb1995/mongo-scraper/issues"
+  },
+  "homepage": "https://github.com/mjmb1995/mongo-scraper#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0"
+  }
+}
